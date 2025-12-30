@@ -1,1 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  color: white;
+  overflow: hidden;
+}
 
+/* Pages */
+.page {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.page.active {
+  display: block;
+}
+
+/* Floating animation */
+.float {
+  font-size: 3rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.subtitle {
+  font-size: 1.2rem;
+}
+
+.wait {
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+/* Memories */
+.memories {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.gallery img {
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Birthday wish */
+.wish {
+  font-size: 3rem;
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+.message {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 30px;
+}

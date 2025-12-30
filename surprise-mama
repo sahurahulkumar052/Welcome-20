@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Surprise 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+  <h1 class="float">🎁 Surprise 🎉</h1>
+  <p class="subtitle">Something special is waiting for you 💖✨</p>
+  <p class="wait">Please wait...</p>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+  <h1 class="memories">💫 Memories 💫</h1>
+  <div class="gallery">
+    <img src="img1.jpg">
+    <img src="img2.jpg">
+    <img src="img3.jpg">
+    <img src="img4.jpg">
+    <img src="img5.jpg">
+  </div>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+  <h1 class="wish">🎂 Happy Birthday 🎂</h1>
+  <p class="message">
+    To my special one 💝<br><br>
+    You bring happiness wherever you go ✨<br>
+    Your smile is truly priceless 😊<br>
+    May all your dreams come true ❤️
+  </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
